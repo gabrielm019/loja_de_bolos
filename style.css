@@ -58,7 +58,8 @@ padding-bottom: 25px;
 }
 
 .titulo-cardapio,
-.titulo-galeria{
+.titulo-galeria,
+.titulo-contato{
     margin-top: 50px;
     font-family: 'Cookie';
     font-weight: normal;
@@ -97,11 +98,18 @@ padding-bottom: 25px;
 .foto-bolo{
     border: 5px solid #ffe8d6;
     border-radius: 3px;
+    transition: all 0.9s ease;
 }
 
 .foto-bolo:hover{
     border-color: aquamarine;
     cursor: copy;
-    transform: scale(1.1);
+    transform: scale(1.1)
+
+}
+.mapa{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
