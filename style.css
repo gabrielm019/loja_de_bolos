@@ -57,7 +57,8 @@ padding-bottom: 25px;
     border-bottom: 3px solid #6b705b;
 }
 
-.titulo-cardapio{
+.titulo-cardapio,
+.titulo-galeria{
     margin-top: 50px;
     font-family: 'Cookie';
     font-weight: normal;
@@ -74,3 +75,33 @@ padding-bottom: 25px;
     color: #6b705b;
 
 }
+
+.galeria-fotos{
+    background-color: #6b705b;
+    padding-bottom: 50px;
+    padding-top: 5px;
+}
+
+.titulo-galeria{
+    color: #cb997e;
+    padding: bottom 20px;
+
+
+}
+
+.linha-fotos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto-bolo{
+    border: 5px solid #ffe8d6;
+    border-radius: 3px;
+}
+
+.foto-bolo:hover{
+    border-color: aquamarine;
+    cursor: copy;
+    transform: scale(1.1);
+}
+
